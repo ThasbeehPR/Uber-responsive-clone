@@ -1,0 +1,142 @@
+ *{
+  font-family: "Poppins", sans-serif;
+ }
+ 
+ #logo{
+    font-size: 19px;
+  }
+  
+ .navbar-toggler-icon {
+    filter: brightness(0) invert(1) sepia(1);
+  }
+
+ .log{
+    flex-direction: row;
+  }
+
+ @media(max-width:992px){
+    .log{
+        display: flex;
+        flex-flow: column;
+    }
+    .sig-bt{
+        width: 70px;
+        margin-top: 10px;
+    }
+  }
+
+  .ul-nav-txt{
+    font-size: 18px;
+
+  }
+
+  .ncol >*:hover{
+    color: rgb(123, 119, 117) !important;
+  }
+ 
+  #b1{
+    display: flex;
+    background-color: rgb(0, 0, 0); 
+  }
+
+  .vc{
+    color: white;
+  }
+  
+  @media(max-width:1200px){
+    .sec3{
+      flex-direction: column-reverse;
+    }
+  }
+  
+  .form-control.long-input {
+    width: 900px;
+  }
+  
+  #b2{
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #b3{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #b4{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #b5{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #b6{
+      background-color: rgb(255, 255, 255);
+      align-items: center;
+      justify-content: center;
+    }
+   
+  #b7{
+      display: flex;
+      background-color: rgb(255, 255, 255);    
+    }
+  
+  #b8{
+     background-color: rgb(255, 255, 255);
+     align-items: center;
+     justify-content: center;
+   }
+
+ .bc{
+     background-color: #F6F6F6;
+    }
+  
+  .bc1{
+     background-color: rgb(255, 255, 255);
+     padding-top: 20px;
+     width: 100%;
+   }
+ 
+  #bco1{
+     height: 150px;
+     width: 150px;
+   }
+ 
+  #bco2{
+     height: 150px;
+     width: 150px;
+    }
+  
+  .images{
+      width: 70%;
+      margin: 30px 0px 30px 0px;
+    }
+  
+   .fu{
+    height: 100%;
+
+    }
+  
+  .c{
+    background-color: rgb(0, 0, 0);
+    }
+   
+  .ftxt{
+   list-style: none;
+   cursor: pointer;
+  }
+  
+  .fu-ro{
+    background-color: rgb(0, 0, 0);
+    line-height: 2;
+   }
+  
+  .ub{
+    background-color: rgb(0, 0, 0);
+    line-height: 2;
+   }
